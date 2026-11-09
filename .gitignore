@@ -1,0 +1,6 @@
+car_prices.csv
+Utensil images/
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
