@@ -52,6 +52,16 @@ The regression task used **2,000 records** to predict **selling price** from veh
 
 **Key finding:** Random Forest produced the lowest test RMSE, while SVR achieved the lowest test MAE. These measures emphasize different aspects of prediction error.
 
+## Original Experiment Output Files
+
+The selected comparison CSVs come from my original console experiments, not from a new portfolio rerun:
+
+- [Classification: Final Test Results](results/classification/final_model_comparison.csv)
+- [Regression: Final Test Results](results/regression/final_model_comparison.csv)
+- [Results Notes and Limitations](results/README.md)
+
+The repository does not yet include a complete reproducible implementation of every original hyperparameter sweep.
+
 ## Methods and Skills Demonstrated
 
 - Dataset preparation and train/validation/test splitting
