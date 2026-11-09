@@ -52,6 +52,18 @@ The regression task used **2,000 records** to predict **selling price** from veh
 
 **Key finding:** Random Forest produced the lowest test RMSE, while SVR achieved the lowest test MAE. These measures emphasize different aspects of prediction error.
 
+## Portfolio Python Scripts
+
+The Python files below are **portfolio adaptations** based on the Lab 2 workflow and selected configurations. In the original coursework, I ran different algorithm configurations in the Python console and saved the experiment results separately. These scripts illustrate the five selected classification models and five selected regression models; they **do not recreate the full hyperparameter sweep**, and a new run may differ from the original report.
+
+- [Classification script](classification/classifier.py) — utensil image processing, validation and held-out testing.
+- [Regression script](regression/regressor.py) — used-car price preprocessing, validation and held-out testing.
+- [Requirements](requirements.txt) — Python package dependencies.
+
+**To run:** Install packages using `pip install -r requirements.txt`. For classification, provide authorized PNG images under `Utensil images/FORK`, `Utensil images/KNIFE`, and `Utensil images/SPOON`, then run `python classification/classifier.py`. For regression, provide a locally authorized `car_prices.csv` in the repository root and run `python regression/regressor.py`.
+
+The scripts have been reviewed but **have not been rerun against the original datasets in this repository**. Original console-generated final comparison results are provided separately under `results/`. Neither the course instructions nor datasets are redistributed.
+
 ## Original Experiment Output Files
 
 The selected comparison CSVs come from my original console experiments, not from a new portfolio rerun:
