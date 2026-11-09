@@ -90,7 +90,7 @@ The classification test set contains only 27 images, so the performance rankings
 
 The selected Random Forest regressor used `bootstrap=False` and `max_features=None`, producing essentially identical trees rather than a diverse ensemble. I therefore do not attribute its performance advantage to ensemble diversity.
 
-The original study's results are reported above. Source code and authorized, privacy-reviewed reproducibility materials will be added separately; the metrics should not be interpreted as having been independently reproduced from this GitHub repository yet.
+The original coursework results are reported above. Portfolio-adapted Python scripts and selected original console-output CSVs are available in this repository; however, the scripts have not been independently rerun on the original datasets here, and the complete original hyperparameter sweep is not reproduced.
 
 ## Author
 
